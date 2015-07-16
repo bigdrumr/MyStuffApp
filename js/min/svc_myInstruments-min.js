@@ -1,0 +1,1 @@
+app.factory("instrumentDetail",["$http",function(t){return t.get("../data/instruments.json").success(function(t){return t}).error(function(t){return t})}]);

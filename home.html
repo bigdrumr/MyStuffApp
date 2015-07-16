@@ -1,0 +1,16 @@
+<!--TEMPLATE: HOME SCREEN  -->
+
+
+<div class="main">
+
+	<h2>{{title}}</h2>
+	<input type="text" ng-model="model">
+	<div class="object" ng-repeat="instrument in instruments">
+		<!-- 
+			1. 'my-instruments' is defined as the directive name 'myInstruments' in js/directives/myInstruments.js.
+			2. The directive bakes the 'instruments' data from the controller 'MainController' into the HTML partial myInstruments.html, and injects it here.
+		-->
+		<my-instruments detail="instrument"></my-instruments>
+
+	</div>
+</div>

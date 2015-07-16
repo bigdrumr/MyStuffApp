@@ -1,0 +1,1 @@
+var app=angular.module("MyStuffApp",["ngRoute","MainController"]);app.config(["$routeProvider",function(e){e.when("/",{controller:"MainController",templateUrl:"templates/home.html"}).otherwise({redirectTo:"/"})}]);
