@@ -18,6 +18,7 @@ app.controller(
 				name: 'Larrivee',
 				location: 'Durham, NC',
 				condition: 'New',
+				age: 3,
 				image: 'img/'
 			},
 			{
@@ -25,6 +26,7 @@ app.controller(
 				name: 'Fiddle',
 				location: 'Durham, NC',
 				condition: 'Antique',
+				age: 100,
 				image: 'img/'
 			},
 			{
@@ -32,6 +34,7 @@ app.controller(
 				name: 'Rogue',
 				location: 'Madison, WI',
 				condition: 'Second-hand',
+				age: 10,
 				image: 'img/'
 			},
 			{
@@ -39,6 +42,7 @@ app.controller(
 				name: 'Big Snare Drum',
 				location: 'Durham, NC',
 				condition: 'Modified',
+				age: 10,
 				image: 'img/'
 			}
 		];

@@ -3,6 +3,13 @@
 <head>
 	<title>Here's My Stuff</title>
 
+	<!-- less.js -->
+	<!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"> -->
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+	<!-- angular.js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-route.min.js"></script>
+
 	<!-- styles -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -11,7 +18,42 @@
 	<h1>My Stuff</h1>
 
 	<!-- HOME SCREEN TEMPLATE -->
-	<div ng-view></div>
+	<!-- <div ng-view></div> -->
+
+	<div class="main" ng-controller="MainController">
+
+		<h2>{{title}}</h2>
+
+
+		<!-- 
+			Filter the list by search. Bind the INPUT TEXT to a filter with the value :query. See element below with class='object'.
+		-->
+		<input type="search" ng-model="query">
+		<!--  
+			Filter the list order items into a specific arrangement. Bind the SELECTION to the 'orderBy' filter w/ value :listOrder. See element below with class='object'.
+		-->
+		<select ng-model="listOrder">
+			<option>Arrange</option>
+			<option value="type">Type</option>
+			<option value="location">Location</option>
+			<option value="name">Name</option>
+			<option value="age">Age</option>
+		</select>
+
+		<div class="object" ng-repeat="instrument in instruments | filter:query | orderBy:listOrder">
+			<!-- 
+				1. 'my-instruments' is defined as the directive name 'myInstruments' in js/directives/myInstruments.js.
+				2. The directive bakes the 'instruments' data from the controller 'MainController' into the HTML partial myInstruments.html, and injects it here.
+			-->
+			<!-- <my-instruments detail="instrument"></my-instruments> -->
+			<h3>{{instrument.name}} 
+				<small class="subtitle">{{instrument.type}}</small>
+			</h3>
+			<p>{{instrument.condition}}</p>
+			<p>{{instrument.location}}</p>
+
+		</div>
+	</div>
 
 
 
@@ -21,24 +63,16 @@
 
 
 
-<!--
-	js libraries 
---> 
 
-	<!-- less.js -->
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js">
-	
-	<!-- angular.js -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular-route.min.js"></script>
 <!-- scripts -->
+	<!-- app.js -->
 	<script type="text/javascript" src="js/app.js"></script>
 
 	<!-- controllers -->
 	<script type="text/javascript" src="js/controllers/mainController.js"></script>
 
 	<!-- directives -->
-	<script type="text/javascript" src="js/directives/myInstruments.js"></script>
+	<!-- <script type="text/javascript" src="js/directives/myInstruments.js"></script> -->
 
 	<!-- services -->
 	<!-- <script type="text/javascript" src="js/services/svc_myInstruments.js"></script> -->
