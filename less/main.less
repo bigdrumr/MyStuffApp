@@ -1,10 +1,17 @@
 /*
-	My Stuff App
-	Main Less.js
+	MAIN LESS FILE
 	Compiled to css/main.css
+	My Stuff App
 	by Terry Griffin
 	July 2015
 */
+
+/* ======
+	LESS File Imports
+/  ====== */
+
+@import 'list';
+/*@import 'detail';*/
 
 
 /* ======
@@ -62,29 +69,6 @@ p {
 	font-weight: 100
 }
 
-/* === layout === */
-
-.main {
-	position: relative;
-
-	.list-filter {
-		position: absolute;
-	}
-}
-.object {
-	margin: 1em 0.5em;
-	float: left;
-
-	&:after {
-		display:block;
-		content: '';
-		clear: both;
-	}
-
-	img {
-		max-width: 200px;
-	}
-}
 
 
 

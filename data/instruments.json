@@ -1,38 +1,38 @@
 [
 	{
-		"type":"Guitar",
+		"id":"Guitar",
 		"name":"Larrivee",
 		"location":"Durham, NC",
 		"condition":"New",
 		"age": 3,
-		"image":"img/larrivee.jpg",
-		"id": "a"
+		"duration": "two and a half years",
+		"image":"img/larrivee.jpg"
 	},
 	{
-		"type":"Violin",
+		"id":"Violin",
 		"name":"Fiddle",
 		"location":"Durham, NC",
 		"condition":"Antique",
 		"age": 100,
-		"image":"img/fiddle.jpg",
-		"id": "b"
+		"duration": "two years",
+		"image":"img/fiddle.jpg"
 	},
 	{
-		"type":"Banjo",
+		"id":"Banjo",
 		"name":"Rogue",
 		"location":"Madison, WI",
 		"condition":"Second-hand",
 		"age": 10,
-		"image":"img/banjo.jpg",
-		"id": "c"
+		"duration": "6 months",
+		"image":"img/banjo.jpg"
 	},
 	{
-		"type":"Drum",
+		"id":"Drum",
 		"name":"Big Snare Drum",
 		"location":"Durham, NC",
 		"condition":"Modified",
 		"age": 10,
-		"image":"img/drum.jpg",
-		"id": "d"
+		"duration": "five years",
+		"image":"img/drum.jpg"
 	}
 ]

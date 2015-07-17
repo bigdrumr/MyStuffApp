@@ -1,0 +1,9 @@
+{
+		"id":"Guitar",
+		"name":"Larrivee",
+		"location":"Durham, NC",
+		"condition":"New",
+		"age": 3,
+		"duration": "two and a half years",
+		"image":"img/larrivee.jpg"
+}

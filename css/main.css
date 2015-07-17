@@ -1,17 +1,51 @@
 /*
-	My Stuff App
-	Main Less.js
+	MAIN LESS FILE
 	Compiled to css/main.css
+	My Stuff App
 	by Terry Griffin
 	July 2015
 */
+/* ======
+	LESS File Imports
+/  ====== */
+/*
+	LIST VIEW
+	Imported to less/main.less
+	Compiled to css/main.css
+	My Stuff App
+	by Terry Griffin
+	July 2015
+*/
+/* ======
+	STYLES
+/  ====== */
+/* === layout === */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+.main {
+  position: relative;
+}
+.main .list-filter {
+  position: absolute;
+}
+.object {
+  margin: 1em 0.5em;
+  float: left;
+}
+.object:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.object img {
+  max-width: 200px;
+}
+/*@import 'detail';*/
 /* ======
 	VARIABLES
 /  ====== */
 /* ======
 	FONT IMPORTS
 /  ====== */
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 /* ======
 	STYLES
 /  ====== */
@@ -62,23 +96,4 @@ p {
 .subtitle {
   display: block;
   font-weight: 100;
-}
-/* === layout === */
-.main {
-  position: relative;
-}
-.main .list-filter {
-  position: absolute;
-}
-.object {
-  margin: 1em 0.5em;
-  float: left;
-}
-.object:after {
-  display: block;
-  content: '';
-  clear: both;
-}
-.object img {
-  max-width: 200px;
 }

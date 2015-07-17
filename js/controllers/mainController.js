@@ -1,18 +1,39 @@
 
+// Main Controller Module
+//
 var mainController = angular.module('MainController', []);
 
-mainController.controller('instmtDataCtrl', ['$scope', '$http',
+
+// Instrument List View Controller
+//
+// This controller is assigned to template 'list-instruments.html'
+// The assignment is a route defined in app.js. 
+mainController.controller('instmtData', [
+	'$scope', 
+	'$http',
 	function($scope, $http) {
 		$scope.title = 'Instruments';
+		// fetch data from the server
 		$http.get('data/instruments.json').success(function(data){
-			// return all data from the JSON file, and spit out only the first two objects.
 			$scope.instruments = data;
 		});
+		// init list ordering by 'name' property
 		$scope.listOrder = 'name';
 	}
 ]);
-// mainController.controller('instmtDetailCtrl', ['$scope', '$routeParams', 
-// 	function($scope, $routeParams) {
-// 		$scope.instrumentId = $routeParams.instrumentId;
-// 	}
-// ]);
+
+// Instrument Detail View Controller
+//
+mainController.controller('instmtDetail', [
+	'$scope', 
+	'$routeParams', 
+	'$http', 
+	function($scope, $routeParams, $http) {
+		$scope.instrumentId = $routeParams.instrumentId;
+
+		// fetch data from the server
+		$http.get('data/' + $routeParams.instrumentId + '.json').success(function(data){
+			$scope.instruments = data;
+		});
+	}
+]);

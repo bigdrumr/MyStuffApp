@@ -1,0 +1,9 @@
+{
+		"id":"Banjo",
+		"name":"Rogue",
+		"location":"Madison, WI",
+		"condition":"Second-hand",
+		"age": 10,
+		"duration": "6 months",
+		"image":"img/banjo.jpg"
+}

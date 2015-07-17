@@ -1,1 +1,1 @@
-var app=angular.module("MyStuffApp",[]);
+"use strict";var app=angular.module("MyStuffApp",["ngRoute","MainController"]);app.config(["$routeProvider",function(t){t.when("/",{controller:"instmtData",templateUrl:"templates/list-instrument.html"}).when("/instruments/:instrumentId",{controller:"instmtDetail",templateUrl:"templates/detail-instrument.html"}).otherwise({redirectTo:"/"})}]);

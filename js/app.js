@@ -12,10 +12,18 @@ var app = angular.module('MyStuffApp', [
 app.config(['$routeProvider', 
 	function($routeProvider) {
 		$routeProvider
+			// fetch this template when URL is root '/'
 			.when('/', {
-				controller: 'instmtDataCtrl',
+				// assign the controller to the template
+				controller: 'instmtData',
 				templateUrl: 'templates/list-instrument.html'
 			})
+			// fetch this template when URL points to detail page
+			.when('/instruments/:instrumentId', {
+				controller: 'instmtDetail',
+				templateUrl: 'templates/detail-instrument.html'
+			})
+			// otherwise, point to root '/'
 			.otherwise({
 				redirectTo: '/'
 			});
