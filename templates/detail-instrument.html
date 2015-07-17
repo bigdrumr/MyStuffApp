@@ -4,9 +4,11 @@
 	Note: The scope no longer relies the 'instrument' alias in ng-repeat in list-instrument.html. The scope is the JSON object name 'instruments'.
 -->
 
-<div>
+<div class="canvas">
 	<h1>{{instruments.id}}</h1>
-	<img ng-src="{{instruments.image}}">
+	<div class="detail-img">
+		<img ng-src="{{instruments.image}}">
+	</div>
 	<h2>{{instruments.name}}</h2>
 	<p>This guy is about {{instruments.age}} years old. I picked it up maybe {{instruments.duration}} ago.</p>
 

@@ -11,57 +11,79 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/data\/banjo.json": {
+	"\/data\/everyday\/everyday.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/banjo.json",
+		"inputAbbreviatedPath": "\/data\/everyday\/everyday.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/banjo-min.json",
+		"outputAbbreviatedPath": "\/data\/everyday\/everyday-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/data\/drum.json": {
+	"\/data\/instruments\/Banjo.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/drum.json",
+		"inputAbbreviatedPath": "\/data\/instruments\/Banjo.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/drum-min.json",
+		"outputAbbreviatedPath": "\/data\/instruments\/Banjo-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/data\/guitar.json": {
+	"\/data\/instruments\/Drum.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/guitar.json",
+		"inputAbbreviatedPath": "\/data\/instruments\/Drum.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/guitar-min.json",
+		"outputAbbreviatedPath": "\/data\/instruments\/Drum-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/data\/instruments.json": {
+	"\/data\/instruments\/Guitar.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/instruments.json",
+		"inputAbbreviatedPath": "\/data\/instruments\/Guitar.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/instruments-min.json",
+		"outputAbbreviatedPath": "\/data\/instruments\/Guitar-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/data\/violin.json": {
+	"\/data\/instruments\/instruments.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/violin.json",
+		"inputAbbreviatedPath": "\/data\/instruments\/instruments.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/violin-min.json",
+		"outputAbbreviatedPath": "\/data\/instruments\/instruments-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/data\/instruments\/Violin.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/data\/instruments\/Violin.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/data\/instruments\/Violin-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/data\/main.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/data\/main.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/data\/main-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
@@ -73,6 +95,17 @@
 		"initialSize": 398469,
 		"inputAbbreviatedPath": "\/img\/banjo.jpg",
 		"outputAbbreviatedPath": "\/img\/banjo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/birches.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.46208e+06,
+		"inputAbbreviatedPath": "\/img\/birches.jpg",
+		"outputAbbreviatedPath": "\/img\/birches.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -99,6 +132,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/keyclip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72661,
+		"inputAbbreviatedPath": "\/img\/keyclip.jpg",
+		"outputAbbreviatedPath": "\/img\/keyclip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/knife-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23239,
+		"inputAbbreviatedPath": "\/img\/knife-1.jpg",
+		"outputAbbreviatedPath": "\/img\/knife-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/knife-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.35894e+06,
+		"inputAbbreviatedPath": "\/img\/knife-2.jpg",
+		"outputAbbreviatedPath": "\/img\/knife-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/larrivee.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -106,6 +172,61 @@
 		"initialSize": 49372,
 		"inputAbbreviatedPath": "\/img\/larrivee.jpg",
 		"outputAbbreviatedPath": "\/img\/larrivee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lighter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73686,
+		"inputAbbreviatedPath": "\/img\/lighter.jpg",
+		"outputAbbreviatedPath": "\/img\/lighter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 799412,
+		"inputAbbreviatedPath": "\/img\/pen.jpg",
+		"outputAbbreviatedPath": "\/img\/pen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/phone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26218,
+		"inputAbbreviatedPath": "\/img\/phone.jpg",
+		"outputAbbreviatedPath": "\/img\/phone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sunglasses.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4332,
+		"inputAbbreviatedPath": "\/img\/sunglasses.jpg",
+		"outputAbbreviatedPath": "\/img\/sunglasses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wallet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181350,
+		"inputAbbreviatedPath": "\/img\/wallet.jpg",
+		"outputAbbreviatedPath": "\/img\/wallet.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -169,7 +290,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/less\/detail.less",
 		"outputAbbreviatedPath": "\/css\/detail.css",
@@ -223,6 +344,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/less\/masthead.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/masthead.less",
+		"outputAbbreviatedPath": "\/css\/masthead.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/templates\/detail-instrument.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -232,11 +373,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/templates\/list-everyday.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/list-everyday.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/templates\/list-instrument.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/list-instrument.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/list-main.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/list-main.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

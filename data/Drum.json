@@ -1,9 +1,0 @@
-{
-		"id":"Drum",
-		"name":"Big Snare Drum",
-		"location":"Durham, NC",
-		"condition":"Modified",
-		"age": 10,
-		"duration": "five years",
-		"image":"img/drum.jpg"
-}

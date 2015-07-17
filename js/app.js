@@ -15,8 +15,9 @@ app.config(['$routeProvider',
 			// fetch this template when URL is root '/'
 			.when('/', {
 				// assign the controller to the template
-				controller: 'instmtData',
-				templateUrl: 'templates/list-instrument.html'
+				controller: 'mainData',
+				templateUrl: 'templates/list-main.html'
+				// templateUrl: 'templates/list-instrument.html'
 			})
 			// fetch this template when URL points to detail page
 			.when('/instruments/:instrumentId', {
