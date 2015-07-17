@@ -39,6 +39,14 @@ body {
 	color: @off-white;
 	background: @bg-color;
 };
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: darken(@off-white, 10%);
+  }
+}
 h1 {font-size: 3rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.5rem;}
@@ -54,8 +62,29 @@ p {
 	font-weight: 100
 }
 
+/* === layout === */
 
+.main {
+	position: relative;
 
+	.list-filter {
+		position: absolute;
+	}
+}
+.object {
+	margin: 1em 0.5em;
+	float: left;
+
+	&:after {
+		display:block;
+		content: '';
+		clear: both;
+	}
+
+	img {
+		max-width: 200px;
+	}
+}
 
 
 

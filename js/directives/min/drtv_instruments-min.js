@@ -1,1 +1,0 @@
-app.directive("myInstruments",function(){return{restrict:"E",scope:{info:"="},templateUrl:"js/directives/myInstruments.html"}});

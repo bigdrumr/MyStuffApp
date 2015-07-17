@@ -29,6 +29,13 @@ body {
   color: #aaaaaa;
   background: #333333;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #919191;
+}
 h1 {
   font-size: 3rem;
 }
@@ -55,4 +62,23 @@ p {
 .subtitle {
   display: block;
   font-weight: 100;
+}
+/* === layout === */
+.main {
+  position: relative;
+}
+.main .list-filter {
+  position: absolute;
+}
+.object {
+  margin: 1em 0.5em;
+  float: left;
+}
+.object:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.object img {
+  max-width: 200px;
 }
