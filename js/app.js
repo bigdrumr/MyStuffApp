@@ -12,9 +12,9 @@ var app = angular.module('MyStuffApp', [
 app.config(['$routeProvider', 
 	function($routeProvider) {
 		$routeProvider
-			.when('/instruments', {
+			.when('/', {
 				controller: 'instmtDataCtrl',
-				templateUrl: '/templates/list-instrument.html'
+				templateUrl: 'templates/list-instrument.html'
 			})
 			.otherwise({
 				redirectTo: '/'
