@@ -21,55 +21,38 @@ mainController.controller('mainData', [
 	}
 ]);
 
-// Instrument List View Controller
+
+// Category List View Controller
 //
-// This controller is assigned to template 'list-instruments.html'
+// This controller is assigned to template 'list-composition.html'
 // The assignment is a route defined in app.js. 
-mainController.controller('instmtData', [
-	'$scope', 
+mainController.controller('categoryData', [
+	'$scope',
+	'$routeParams', 
 	'$http',
-	function($scope, $http) {
-		$scope.title = 'Instruments';
-		// fetch data from the server
-		$http.get('data/instruments/instruments.json').success(function(data){
-			$scope.instruments = data;
+	function($scope, $routeParams, $http) {
+		$scope.mainId = $routeParams.mainId;
+		$http.get('data/' + $routeParams.mainId + '/' + $routeParams.mainId + '.json').success(function(data){
+			$scope.everyday = data;
 		});
-		// init list ordering by 'name' property
-		$scope.listOrder = 'name';
 	}
 ]);
+
+
 
 // Instrument Detail View Controller
 //
-mainController.controller('instmtDetail', [
-	'$scope', 
-	'$routeParams', 
-	'$http', 
-	function($scope, $routeParams, $http) {
-		$scope.instrumentId = $routeParams.instrumentId;
+// mainController.controller('instmtDetail', [
+// 	'$scope', 
+// 	'$routeParams', 
+// 	'$http', 
+// 	function($scope, $routeParams, $http) {
+// 		$scope.instrumentId = $routeParams.instrumentId;
 
-		// fetch data from the server
-		$http.get('data/instruments/' + $routeParams.instrumentId + '.json').success(function(data){
-			$scope.instruments = data;
-		});
-	}
-]);
+// 		// fetch data from the server
+// 		$http.get('data/instruments/' + $routeParams.instrumentId + '.json').success(function(data){
+// 			$scope.instruments = data;
+// 		});
+// 	}
+// ]);
 
-
-// Everyday-carry List View Controller
-//
-// This controller is assigned to template 'list-instruments.html'
-// The assignment is a route defined in app.js. 
-mainController.controller('everydayData', [
-	'$scope', 
-	'$http',
-	function($scope, $http) {
-		$scope.title = 'Everyday-Carry';
-		// fetch data from the server
-		$http.get('data/everyday/everyday.json').success(function(data){
-			$scope.everyday = data;
-		});
-		// init list ordering by 'name' property
-		$scope.listOrder = 'name';
-	}
-]);

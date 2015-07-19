@@ -1,90 +1,20 @@
 [
 	{
-		"id":"Wallet",
-		"type":"Wallet",
-		"brand":"Fossil",
-		"model":"Model Unknown",
-		"location":"Pensacola, FL",
-		"condition":"Well Worn",
-		"age": 11,
-		"duration":"eleven years",
-		"image":"img/wallet.jpg"
+		"id":"Instruments",
+		"desc":"Things I play.",
+		"image":"img/larrivee.jpg",
+		"data":"Instruments.json"
 	},
 	{
-		"id":"Knife-1",
-		"type":"Pocket Knife",
-		"brand":"Columbia River Cutting Tool (CRKT)",
-		"model":"M-1 Lightfoot",
-		"location":"Durham, NC",
-		"condition":"Well Worn",
-		"age": 10,
-		"duration":"three years",
-		"image":"img/Knife-1.jpg"
+		"id":"Everyday",
+		"desc":"Things I carry everyday.",
+		"image":"img/wallet.jpg",
+		"data":"Everyday.json"
 	},
 	{
-		"id":"Knife-2",
-		"type":"Pocket Knife",
-		"brand":"Kershaw",
-		"model":"Model Unknown",
-		"location":"Durham, NC",
-		"condition":"Well Worn",
-		"age": 3,
-		"duration":"three years",
-		"image":"img/Knife-2.jpg"
-	},
-	{
-		"id":"Pen",
-		"type":"Retractable Ballpoint",
-		"brand":"Pilot",
-		"model":"G2",
-		"location":"Durham, NC",
-		"condition":"Well Worn",
-		"age": 2,
-		"duration":"two years",
-		"image":"img/pen.jpg"
-	},
-	{
-		"id":"Keyclip",
-		"type":"Cam-latch Belt Clip",
-		"brand":"Victorinox",
-		"model":"Stainless Hanger",
-		"location":"Durham, NC",
-		"condition":"Well Worn",
-		"age": 6,
-		"duration":"five and a half years",
-		"image":"img/keyclip.jpg"
-	},
-	{
-		"id":"Sunglasses",
-		"type":"Polarized Sunglasses",
-		"brand":"Anarchy",
-		"model":"Model Unknown",
-		"location":"Durham, NC",
-		"condition":"Well Worn",
-		"age": "Unknown",
-		"duration":"three and a half years",
-		"image":"img/keyclip.jpg"
-	},
-	{
-		"id":"Lighter",
-		"type":"Butane Lighter",
-		"brand":"Bic",
-		"model":"Model Unknown",
-		"location":"Madison, WI",
-		"condition":"Still has the label",
-		"age": "Unknown",
-		"duration":"three months",
-		"image":"img/lighter.jpg"
-	},
-	{
-		"id":"Phone",
-		"type":"Cell Phone",
-		"brand":"Samsung",
-		"model":"M400 Flip Phone",
-		"location":"Madison, WI",
-		"condition":"Few Blemishes",
-		"age": "Unknown",
-		"duration":"three years",
-		"image":"img/phone.jpg"
-	},
+		"id":"Composition",
+		"desc":"Things I write and build with.",
+		"image":"img/macbook.jpg",
+		"data":"Composition.json"
+	}
 ]
