@@ -1,0 +1,1 @@
+app.controller("compositionCtrl",["$scope","$http",function(o,t){o.title="My composition",t.get("data/composition/composition.json").success(function(t){o.composition=t})}]);

@@ -1,0 +1,17 @@
+
+	<div class="main canvas">
+		<h2>{{title}}</h2>
+
+		<div class="object" ng-repeat="item in main">
+
+			<a ui-sref="{{item.state}}">
+				<h3>{{item.id}}
+					<small class="subtitle">		{{item.desc}}
+					</small>
+				</h3>
+			</a>
+			<img ng-src="{{item.image}}">
+
+		</div>
+
+	</div>

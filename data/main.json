@@ -1,0 +1,23 @@
+[
+	{
+		"id":"Instruments",
+		"desc":"Things I play.",
+		"image":"img/larrivee.jpg",
+		"data":"Instruments.json",
+		"state": "instruments"
+	},
+	{
+		"id":"Everyday",
+		"desc":"Things I carry everyday.",
+		"image":"img/wallet.jpg",
+		"data":"Everyday.json",
+		"state": "everyday"
+	},
+	{
+		"id":"Composition",
+		"desc":"Things I write and build with.",
+		"image":"img/macbook.jpg",
+		"data":"Composition.json",
+		"state": "composition"
+	}
+]

@@ -1,0 +1,1 @@
+app.controller("everydayCtrl",["$scope","$http",function(e,y){e.title="My Everyday Carry",y.get("data/everyday/everyday.json").success(function(y){e.everyday=y})}]);

@@ -23,7 +23,7 @@
 		</div>
 
 		<!-- List Object Template -->
-		<div class="object" ng-repeat="instrument in instruments | filter:query | orderBy:listOrder">
+		<div class="object" ng-repeat="item in instruments | filter:query | orderBy:listOrder">
 			<!-- 
 				1. 'my-instruments' is defined as the directive name 'myInstruments' in js/directives/myInstruments.js.
 				2. The directive bakes the 'instruments' data from the controller 'MainController' into the HTML partial myInstruments.html, and injects it here.
@@ -31,12 +31,12 @@
 
 			<!-- partial template-->
 			<!-- <my-instruments detail="instrument"></my-instruments> -->
-			<a href="#/instruments/{{instrument.id}}"><h3>{{instrument.name}} 
-				<small class="subtitle">{{instrument.id}}</small>
+			<a ui-sref=""><h3>{{item.name}} 
+				<small class="subtitle">{{item.id}}</small>
 			</h3></a>
-			<img ng-src="{{instrument.image}}">
-			<p>{{instrument.condition}}</p>
-			<p>{{instrument.location}}</p>
+			<img ng-src="{{item.image}}">
+			<p>{{item.condition}}</p>
+			<p>{{item.location}}</p>
 
 		</div>
 	</div>

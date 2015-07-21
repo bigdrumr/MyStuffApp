@@ -11,57 +11,90 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/data\/banjo.json": {
+	"\/data\/composition\/composition.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/banjo.json",
+		"inputAbbreviatedPath": "\/data\/composition\/composition.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/banjo-min.json",
+		"outputAbbreviatedPath": "\/data\/composition\/composition-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/data\/drum.json": {
+	"\/data\/everyday\/everyday.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/drum.json",
+		"inputAbbreviatedPath": "\/data\/everyday\/everyday.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/drum-min.json",
+		"outputAbbreviatedPath": "\/data\/everyday\/everyday-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/data\/guitar.json": {
+	"\/data\/instruments\/Banjo.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/guitar.json",
+		"inputAbbreviatedPath": "\/data\/instruments\/Banjo.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/guitar-min.json",
+		"outputAbbreviatedPath": "\/data\/instruments\/Banjo-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/data\/instruments.json": {
+	"\/data\/instruments\/Drum.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/instruments.json",
+		"inputAbbreviatedPath": "\/data\/instruments\/Drum.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/instruments-min.json",
+		"outputAbbreviatedPath": "\/data\/instruments\/Drum-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/data\/violin.json": {
+	"\/data\/instruments\/Guitar.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/violin.json",
+		"inputAbbreviatedPath": "\/data\/instruments\/Guitar.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/data\/violin-min.json",
+		"outputAbbreviatedPath": "\/data\/instruments\/Guitar-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/data\/instruments\/instruments.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/data\/instruments\/instruments.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/data\/instruments\/instruments-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/data\/instruments\/Violin.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/data\/instruments\/Violin.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/data\/instruments\/Violin-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/data\/main.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/data\/main.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/data\/main-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
@@ -73,6 +106,17 @@
 		"initialSize": 398469,
 		"inputAbbreviatedPath": "\/img\/banjo.jpg",
 		"outputAbbreviatedPath": "\/img\/banjo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/birches.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.46208e+06,
+		"inputAbbreviatedPath": "\/img\/birches.jpg",
+		"outputAbbreviatedPath": "\/img\/birches.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -110,6 +154,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/macbook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47051,
+		"inputAbbreviatedPath": "\/img\/macbook.jpg",
+		"outputAbbreviatedPath": "\/img\/macbook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/notebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74542,
+		"inputAbbreviatedPath": "\/img\/notebook.jpg",
+		"outputAbbreviatedPath": "\/img\/notebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/wallet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181350,
+		"inputAbbreviatedPath": "\/img\/wallet.jpg",
+		"outputAbbreviatedPath": "\/img\/wallet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -130,12 +207,78 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/controllers\/compositionController.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/controllers\/compositionController.js",
+		"outputAbbreviatedPath": "\/js\/controllers\/min\/compositionController-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/controllers\/everydayController.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/controllers\/everydayController.js",
+		"outputAbbreviatedPath": "\/js\/controllers\/min\/everydayController-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/controllers\/instrumentsController.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/controllers\/instrumentsController.js",
+		"outputAbbreviatedPath": "\/js\/controllers\/min\/instrumentsController-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/controllers\/mainController.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/controllers\/mainController.js",
 		"outputAbbreviatedPath": "\/js\/controllers\/min\/mainController-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/controllers\/min\/compositionController-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/controllers\/min\/compositionController-min.js",
+		"outputAbbreviatedPath": "\/js\/controllers\/min\/min\/compositionController-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/controllers\/min\/everydayController-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/controllers\/min\/everydayController-min.js",
+		"outputAbbreviatedPath": "\/js\/controllers\/min\/min\/everydayController-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/controllers\/min\/instrumentsController-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/controllers\/min\/instrumentsController-min.js",
+		"outputAbbreviatedPath": "\/js\/controllers\/min\/min\/instrumentsController-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -223,29 +366,58 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/templates\/detail-instrument.html": {
+	"\/less\/masthead.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/masthead.less",
+		"outputAbbreviatedPath": "\/css\/masthead.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/templates\/composition\/list-composition.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/detail-instrument.html",
+		"inputAbbreviatedPath": "\/templates\/composition\/list-composition.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/list-instrument.html": {
+	"\/templates\/everyday\/list-everyday.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/list-instrument.html",
+		"inputAbbreviatedPath": "\/templates\/everyday\/list-everyday.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/partials\/myInstruments.html": {
+	"\/templates\/instruments\/list-instrument.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/partials\/myInstruments.html",
+		"inputAbbreviatedPath": "\/templates\/instruments\/list-instrument.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/list-main.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/list-main.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

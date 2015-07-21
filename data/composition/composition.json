@@ -1,0 +1,20 @@
+[
+	{
+		"id":"Laptop",
+		"name":"Macbook Air",
+		"location":"Durham, NC",
+		"condition":"Well worn",
+		"age": 3,
+		"duration": "three years",
+		"image":"img/macbook.jpg"
+	},
+	{
+		"id":"Notebook",
+		"name":"Molskein",
+		"location":"Madison, WI",
+		"condition":"Quarter written-in",
+		"age": 0.5,
+		"duration": "six months",
+		"image":"img/notebook.jpg"
+	}
+]
