@@ -63,7 +63,7 @@
 		"condition":"Well Worn",
 		"age": "Unknown",
 		"duration":"three and a half years",
-		"image":"img/keyclip.jpg"
+		"image":"img/sunglasses.jpg"
 	},
 	{
 		"id":"Lighter",
@@ -86,5 +86,5 @@
 		"age": "Unknown",
 		"duration":"three years",
 		"image":"img/phone.jpg"
-	},
+	}
 ]
