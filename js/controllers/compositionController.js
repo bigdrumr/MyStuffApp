@@ -7,7 +7,7 @@ app.controller('compositionCtrl', [
 	function($scope, $http) {
 		$scope.title = 'My composition';
 		$http.get('data/composition/composition.json').success(function(data) {
-			$scope.composition = data;
+			$scope.list = data;
 		});
 	}
 ]);

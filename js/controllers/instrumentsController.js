@@ -7,7 +7,7 @@ app.controller('instrumentsCtrl', [
 	function($scope, $http) {
 		$scope.title = 'My Instruments';
 		$http.get('data/instruments/instruments.json').success(function(data) {
-			$scope.instruments = data;
+			$scope.list = data;
 		});
 	}
 ]);

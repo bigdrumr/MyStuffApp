@@ -1,1 +1,1 @@
-app.controller("everydayCtrl",["$scope","$http",function(e,y){e.title="My Everyday Carry",y.get("data/everyday/everyday.json").success(function(y){e.everyday=y})}]);
+app.controller("everydayCtrl",["$scope","$http",function(e,t){e.title="My Everyday Carry",t.get("data/everyday/everyday.json").success(function(t){e.list=t})}]);

@@ -7,7 +7,8 @@ app.controller('everydayCtrl', [
 	function($scope, $http) {
 		$scope.title = 'My Everyday Carry';
 		$http.get('data/everyday/everyday.json').success(function(data) {
-			$scope.everyday = data;
+			$scope.list = data;
 		});
-	}]);
+	}
+]);
 

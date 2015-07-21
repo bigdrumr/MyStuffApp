@@ -3,21 +3,21 @@
 		"id":"Instruments",
 		"desc":"Things I play.",
 		"image":"img/larrivee.jpg",
-		"data":"Instruments.json",
-		"state": "instruments"
+		"data":"instruments.json",
+		"state":"instruments"
 	},
 	{
-		"id":"Everyday",
+		"id":"Everyday Carry",
 		"desc":"Things I carry everyday.",
 		"image":"img/wallet.jpg",
-		"data":"Everyday.json",
+		"data":"everyday.json",
 		"state": "everyday"
 	},
 	{
 		"id":"Composition",
 		"desc":"Things I write and build with.",
 		"image":"img/macbook.jpg",
-		"data":"Composition.json",
-		"state": "composition"
+		"data":"composition.json",
+		"state":"composition"
 	}
 ]

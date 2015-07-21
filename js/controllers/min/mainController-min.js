@@ -1,1 +1,1 @@
-var mainController=angular.module("MainController",[]);mainController.controller("instmtData",["$scope","$http",function(t,n){t.title="Instruments",n.get("data/instruments.json").success(function(n){t.instruments=n}),t.listOrder="name"}]),mainController.controller("instmtDetail",["$scope","$routeParams","$http",function(t,n,e){t.instrumentId=n.instrumentId,e.get("data/"+n.instrumentId+".json").success(function(n){t.instruments=n})}]);
+app.controller("mainCtrl",["$scope","$http",function(t,n){t.title="My Stuff",n.get("data/main.json").success(function(n){t.main=n})}]);

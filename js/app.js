@@ -16,17 +16,17 @@ app.config(function($stateProvider,$urlRouterProvider) {
 		})
 		.state('instruments', {
 			url: '/instruments',
-			templateUrl: 'templates/instruments/list-instrument.html',
+			templateUrl: 'templates/list.html',
 			controller: 'instrumentsCtrl'
 		})
 		.state('everyday', {
 			url: '/everyday',
-			templateUrl: 'templates/everyday/list-everyday.html',
+			templateUrl: 'templates/list.html',
 			controller: 'everydayCtrl'
 		})
 		.state('composition', {
 			url: '/composition',
-			templateUrl: 'templates/composition/list-composition.html',
+			templateUrl: 'templates/list.html',
 			controller: 'compositionCtrl'
 		});
 });

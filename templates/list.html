@@ -23,7 +23,7 @@
 		</div>
 
 		<!-- List Object Template -->
-		<div class="object" ng-repeat="item in instruments | filter:query | orderBy:listOrder">
+		<div class="object" ng-repeat="item in list | filter:query | orderBy:listOrder">
 			<!-- 
 				1. 'my-instruments' is defined as the directive name 'myInstruments' in js/directives/myInstruments.js.
 				2. The directive bakes the 'instruments' data from the controller 'MainController' into the HTML partial myInstruments.html, and injects it here.
@@ -37,6 +37,5 @@
 			<img ng-src="{{item.image}}">
 			<p>{{item.condition}}</p>
 			<p>{{item.location}}</p>
-
 		</div>
 	</div>
